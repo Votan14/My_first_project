@@ -33,30 +33,37 @@ ul {
 
 .block-1 {
     background-color: #9a9aff;
+    padding: 15px;
 }
 
 .block-2 {
     background-color: #cdcdff;
+    padding: 15px;
 
 }
 
 .block-3 {
     background-color: #cdcd00;
+    padding: 15px;
 }
 
 .block-4 {
     background-color: #ffcdff;
+    padding: 15px;
 }
 
 .block-5 {
     background-color: #7ecd5e;
+    padding: 15px;
 
 }
 
 .block-6 {
     background-color: #e8669c;
+    padding: 15px;
 }
 
 #title-color {
     background-color: #ffcd0d;
+    padding: 10px;
 }
