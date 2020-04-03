@@ -8,9 +8,9 @@ p {
     font-size: 18px;
 }
 
-
-b {
+span {
     font-size: 21px;
+    font-weight: bold;
 }
 
 ul {
@@ -22,13 +22,11 @@ ul {
 }
 
 .picture {
-
     display: block;
     margin: 0 auto;
     border-width: thick;
     border-color: rgb(190, 190, 190);
     border-style: double;
-
 }
 
 .block-1 {
@@ -39,7 +37,6 @@ ul {
 .block-2 {
     background-color: #cdcdff;
     padding: 15px;
-
 }
 
 .block-3 {
@@ -67,3 +64,24 @@ ul {
     background-color: #ffcd0d;
     padding: 10px;
 }
+
+.box {
+    border-radius: 15px;    
+    background-color: #e6e6fa;
+    position: fixed;
+    width: 220px;
+    height: 40px;
+    overflow: hidden;
+    padding: 3px;
+    top: 0;
+    right: 0;
+    opacity: .5;
+    z-index: 1;
+}
+
+.box:hover {
+    background-color: gray;
+    font-family: sans-serif;
+    opacity: .8;
+    height: 100%;
+    width: 300px;
