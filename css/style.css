@@ -71,16 +71,19 @@ h3 {
 }
 
 .box-1 { 
+    display: inline-block; 
     width: 1010px;
     height: 503px;
     border: 1px solid #d7d7d7;
     background-color: #ffffff;
+    position: absolute;
     left: 0;
     right: 0;
     margin: 0 auto;
     top: calc(50% - 251px);
-    position: relative;
-    overflow: hidden;
+    z-index: 9; 
+    object-fit: cover;
+    
 }
 
 .picture-1 {
@@ -108,12 +111,20 @@ h3 {
     font-size: 19px;
     position: absolute;
     border-style: none;
+    display: inline-block; 
 }
 
-@media screen and (max-width : 991px) {
-    * {width: 89%}
-  
+.background {
+    background-color: #ccc;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;   
 }
+
+
+
+
 
 
     
