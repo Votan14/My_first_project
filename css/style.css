@@ -18,10 +18,9 @@ h3 {
 }
 
 .text-1 {
-    width: 100%;
-    font-size: 23px;
-    font-weight: bold;
-    z-index: 9; 
+    width: 220px;
+    height: 22px;
+    font-size: 23px;         
     position: absolute;
     top: 94px;
     left: 523px;
@@ -38,8 +37,7 @@ h3 {
     width: 400px;
     height: 50px;
     font-size: 15px;
-    display: inline-block; 
-    z-index: 9;
+    display: inline-block;     
     position: absolute;
 }
 
@@ -52,8 +50,7 @@ h3 {
     width: 35px;
     height: 14px;
     font-size: 15px;
-    display: inline-block; 
-    z-index: 9;
+    display: inline-block;     
     position: absolute;
 }
 
@@ -65,8 +62,7 @@ h3 {
     width: 111px;
     height: 28px;
     font-size: 30px;
-    display: inline-block; 
-    z-index: 9;
+    display: inline-block;     
     position: absolute;
 }
 
@@ -80,15 +76,11 @@ h3 {
     left: 0;
     right: 0;
     margin: 0 auto;
-    top: calc(50% - 251px);
-    z-index: 9; 
-    object-fit: cover;
-    
+    top: calc(50% - 251px);     
 }
 
 .picture-1 {
-    display: inline-block; 
-    z-index: 9;        
+    display: inline-block;             
     position: absolute;
     left: 48px;
     top: 64px;
@@ -102,8 +94,7 @@ h3 {
     left: 526px;
     top: 372px;
     bottom: 81px;
-    right: 232px;
-    z-index: 9;   
+    right: 232px;      
     width: 252px;
     height: 50px;
     background-color: #ec744a;
@@ -115,12 +106,15 @@ h3 {
 }
 
 .background {
+    display: inline-block;
     background-color: #ccc;
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;   
 }
+
+
 
 
 
