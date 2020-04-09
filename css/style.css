@@ -7,5 +7,36 @@ html, body {
 .container {
     font-family: "Proxima Nova";
     background-color: #f9f9f9;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(0, -50%);  
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+flex-elements {
+    display: flex;
+    justify-content: center;     
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+
+}
+
+.element {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
