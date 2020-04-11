@@ -16,7 +16,7 @@ html, body {
     transform: translate(0, -50%);  
     max-width: 1920px;
     width: 99%;
-    height: 720px;
+    max-height: 720px;
     height: 99%;
 }
 
@@ -24,15 +24,16 @@ html, body {
     display: flex;
     justify-content: center;
     max-width: 552px;
-    width: 90%;    
-    padding-top: 100px;
+    width: 90%;
+    padding-top: 50px;    
     margin: auto;
 }
 
 .flex-elements {       
     display: flex;
     justify-content: center;       
-    margin: auto;  
+    margin-top: 125px; 
+    height: 260px; 
 }
 
 .element-1 {
@@ -40,8 +41,6 @@ html, body {
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
-    margin-right: 15px;
-    margin-left: 15px; 
     width: 90%;
     height: 90%;
     max-width: 200px;
@@ -53,7 +52,8 @@ html, body {
     display: flex;
     font-size: 16px;
     font-weight: 300; 
-    margin-top: 25px;              
+    margin-top: 25px;
+    margin-bottom: 5px;              
 }
 
 .price {
@@ -77,12 +77,13 @@ html, body {
     width: 80%;
     height: 80%;          
     padding: 10px;
+    margin-top: 15px;
 }
 
 img {
     display: flex;
-    max-width: 263px;
-    max-height: 210px;
+    max-width: 218px;
+    max-height: 150px;
     width: 90%;
     height: 90%;
 }
