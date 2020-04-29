@@ -7,6 +7,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
 a {
 	font-family: Tahoma;
 	font-size: 24px;
@@ -16,14 +17,19 @@ a {
 }
 
 .wrapper {
-	width: 1366px;
-	height: 2070px;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	max-width: 1170px;
+	margin: 0 auto;
 }
 
 .description {
 	width: 530px;
 	height: 315px;
-	margin-left: 590px;
+	margin-left: 510px;
 	margin-top: 81px;
 	margin-right: 238px;
 	display: flex;
@@ -64,21 +70,21 @@ a {
 	line-height: 27px;
 }
 
-#img_1 {
+.img_1 {
+	width: 404px;
 	float: left;
 	margin-top: -48px;
-	margin-left: 115px;
 }
 .links {
 	margin-top: 65px;
-	margin-left: 594px;
+	margin-left: 600px;
 	width: 502px;
 	height: 67px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-#button_1 {
+.button_1 {
 	width: 175px;
 	height: 67px;
 	color: #ffffff;
@@ -86,7 +92,7 @@ a {
 	background-color: #f05a22;
 	padding: 18px 45px;
 }
-#button_2 {
+.button_2 {
 	width: 287px;
 	height: 67px;
 	border-radius: 5px;
@@ -116,28 +122,28 @@ p {
 	font-weight: 400;
 	line-height: 22px;
 }
-#elements {
+.elements {
 	margin: 91px 138px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-#elem-1 {
+.elem-1 {
 	width: 181px;
 	height: 102px;
 	text-align: center;
 }
-#elem-2 {
+.elem-2 {
 	width: 241px;
 	height: 102px;
 	text-align: center;
 }
-#elem-3 {
+.elem-3 {
 	width: 194px;
 	height: 101px;
 	text-align: center;
 }
-#elem-4 {
+.elem-4 {
 	width: 194px;
 	height: 104px;
 	text-align: center;
@@ -152,7 +158,7 @@ p {
 	flex-wrap: wrap;
 	align-items: flex-end;
 }
-#title-1 {
+.title-1 {
 	text-align: center;
 	font-family: Tahoma;
 	font-size: 30px;
