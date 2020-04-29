@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html,
@@ -21,31 +23,29 @@ a {
 }
 
 .container {
+	padding: 0 15px;
 	display: flex;
 	max-width: 1170px;
 	margin: 0 auto;
 }
 
 .description {
-	width: 530px;
-	height: 315px;
-	margin-left: 510px;
-	margin-top: 81px;
-	margin-right: 238px;
+	max-width: 493px;
+	margin-left: 55px;
+	margin-top: 85px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 }
 
 .description h1 {
-	margin: 0;
 	font-family: Tahoma;
 	font-size: 48px;
 	font-weight: 700;
 }
 
 .description h3 {
-	margin-top: 6px;
+	margin-top: 13px;
 	margin-left: 4px;
 	font-family: Tahoma;
 	font-size: 30px;
@@ -53,7 +53,7 @@ a {
 }
 
 .description p {
-	margin-top: 0px;
+	margin-top: 22px;
 	margin-left: 4px;
 	font-family: Tahoma;
 	font-size: 18px;
@@ -71,40 +71,40 @@ a {
 }
 
 .img_1 {
-	width: 404px;
-	float: left;
-	margin-top: -48px;
+	margin-top: 77px;
+}
+.img_1 img {
+	width: 90%;
 }
 .links {
-	margin-top: 65px;
-	margin-left: 600px;
-	width: 502px;
-	height: 67px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	margin-top: 488px;
+	max-width: 500px;
+	margin-left: -539px;
 }
 .button_1 {
-	width: 175px;
-	height: 67px;
+	margin-left: 7px;
+	max-height: 67px;
+	max-width: 175px;
 	color: #ffffff;
 	border-radius: 5px;
 	background-color: #f05a22;
-	padding: 18px 45px;
+	padding: 4% 7%;
 }
 .button_2 {
-	width: 287px;
-	height: 67px;
+	margin-left: 20px;
+	max-height: 67px;
+	max-width: 305px;
 	border-radius: 5px;
 	border: 2px solid #f05a22;
 	color: #f05a22;
-	padding: 16px 28px;
+	padding: 3% 7%;
 }
 .pay {
+	padding-top: 70px;
 	width: 100%;
 	height: 408px;
 	text-align: center;
-	margin-top: 318px;
+	margin-top: 153px;
 	background-color: #f2f2f2;
 	border: 1px solid #ffffff;
 }
@@ -149,14 +149,15 @@ p {
 	text-align: center;
 }
 .photos {
-	margin: 0 auto;
-	width: 1137px;
-	height: 659px;
+	margin: 0 100px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: flex-end;
+}
+.photos img {
+	max-width: 250px;
 }
 .title-1 {
 	text-align: center;
